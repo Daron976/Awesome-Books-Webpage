@@ -18,7 +18,7 @@ In this project, We build the Awesome books application by using JavaScript ES6.
 To get a local copy up and running follow these simple example steps.
 * Get the directory that you want to clone the repository.
 * Open the command prompt in this directory.
-* Clone by using this command : ```git clone https://github.com/Daron976/Awesome-Books.git```
+* Clone by using this command : ```git clone https://github.com/Daron976/Awesome-Books-Webpage.git```
 * Got to the cloned folder in your prompt command using ```cd awesome-books```
 * Run the code
 
