@@ -10,7 +10,7 @@ In this project, We build the Awesome books application by using JavaScript ES6.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://daron976.github.io/Awesome-Books-Webpage/)
 
 
 ## Getting Started
