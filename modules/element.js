@@ -1,0 +1,14 @@
+export const displaySection = document.querySelector('.bookstore');
+export const author = document.getElementById('author');
+export const title = document.getElementById('title');
+export const addBtn = document.getElementById('addBtn');
+export const mainContent = document.getElementById('main');
+export const addition = document.getElementById('add-new-books');
+export const contact = document.getElementById('contact');
+export const mainPage = document.getElementsByClassName('main-page');
+export const additionPage = document.getElementsByClassName('add-books-page');
+export const contactPage = document.getElementsByClassName('contact-page');
+export const logo = document.getElementById('logo');
+export const openBtn = document.getElementById('open');
+export const mobileMenu = document.getElementById('mobile');
+export const closeBtn = document.getElementById('close-menu');
