@@ -11,7 +11,7 @@ import {
 }from './modules/element.js';
 import {Book} from './modules/Book.js';
 import * as clicked from './modules/function.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const availableBook = new Book();
 
