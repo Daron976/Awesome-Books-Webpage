@@ -12,5 +12,23 @@
   },
   "dependencies": {
     "luxon": "^3.0.4"
-  }
+  },
+  "name": "awesome-books-webpage",
+  "description": "In this project, We build the Awesome books application by using JavaScript ES6.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daron976/Awesome-Books-Webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daron976/Awesome-Books-Webpage/issues"
+  },
+  "homepage": "https://github.com/Daron976/Awesome-Books-Webpage#readme"
 }
