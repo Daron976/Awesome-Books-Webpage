@@ -11,7 +11,7 @@ import {
 }from './modules/element.js';
 import {Book} from './modules/Book.js';
 import * as clicked from './modules/function.js';
-import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import { DateTime } from './modules/luxon.js';
 
 const availableBook = new Book();
 
@@ -28,8 +28,14 @@ displaySection.addEventListener('click', (e) => {
     availableBook.deleteBook(targetId);
   }
 });
-const date = DateTime.now();
-document.getElementById('current-date').textContent = date.toLocaleString(DateTime.DATETIME_MED_WITH_WEEKDAY);
+
+
+const displayedDate = () => {
+  const date = DateTime.now();
+  document.getElementById('current-date').innerHTML = date.toLocaleString(DateTime.DATETIME_MED_WITH_WEEKDAY);
+};
+
+setInterval(displayedDate, 1000);
 
 closeBtn.addEventListener('click', clicked.closeMenu);
 openBtn.addEventListener('click', clicked.openMenu);
